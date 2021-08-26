@@ -1,0 +1,17 @@
+.nav {
+  @apply sm:flex sm:items-center;
+}
+.nav li {
+  @apply mb-2 sm:mb-0 sm:mr-10 hover:text-purple-600;
+}
+.hero_container {
+  height: 80vh;
+  @apply flex flex-col justify-center p-2 text-center;
+}
+.hero_container h2 {
+  font-family: "Nunito Sans", sans-serif;
+  @apply text-4xl font-black sm:text-7xl;
+}
+.hero_container p {
+  @apply text-gray-500 mt-4 w-11/12 mx-auto sm:text-xl sm:w-2/5 sm:mt-8;
+}
