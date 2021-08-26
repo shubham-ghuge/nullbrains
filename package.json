@@ -2,10 +2,10 @@
   "name": "vite-react-tailwind-rtk",
   "version": "0.1.0",
   "author": {
-    "name": "James Wallen-Jones"
+    "name": "Shubham Ghuge"
   },
   "license": "MIT",
-  "description": "Vite, React, Tailwind, Redux Toolkit Template\n",
+  "description": "Vite, React, Tailwind\n",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
