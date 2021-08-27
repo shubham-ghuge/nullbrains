@@ -32,7 +32,9 @@ function Navbar() {
         >
           <ul className={styles.nav}>
             <li>
-              <a href="#home">Home</a>
+              <a href="#home" className="active">
+                Home
+              </a>
             </li>
             <li>
               <a href="#features">Features</a>
@@ -51,7 +53,7 @@ function Navbar() {
           </ul>
           <div className="sm:flex items-center">
             <button>Sign In</button>
-            <button className="btn-primary px-4 py-2 rounded-full ml-2">
+            <button className="btn-primary px-4 py-2 rounded-full ml-2 sm:ml-5">
               Sign Up
             </button>
           </div>

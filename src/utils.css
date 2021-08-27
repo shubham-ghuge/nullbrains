@@ -10,3 +10,6 @@ section {
 .btn-primary {
   @apply bg-indigo-600 text-white focus:outline-none focus:ring-4 ring-indigo-400 ring-opacity-75 hover:bg-indigo-800 transition duration-300;
 }
+.active {
+  @apply text-indigo-600;
+}

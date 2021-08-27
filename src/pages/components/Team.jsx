@@ -23,7 +23,7 @@ function Team() {
     },
   ];
   return (
-    <section className="mx-4 mt-16 sm:w-11/12 sm:px-4 sm:mx-auto relative">
+    <section className="mx-4 mt-16 sm:w-11/12 sm:px-4 sm:mx-auto relative" id="team">
       <p className="text-indigo-600 text-md sm:text-xl sm:mb-6">OUR TEAM</p>
       <h2 className="text-3xl font-semibold sm:text-5xl">
         An incredible team of <br className="hidden sm:block"/> amazing individuals

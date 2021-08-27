@@ -29,10 +29,10 @@ function Blogs() {
     <section id="blogs">
       <div className="w-11/12 mx-auto pt-8 sm:pt-16">
         <h2 className="text-4xl font-black sm:text-7xl">The Project Blog</h2>
-        <p className="text-lg text-gray-500 mt-2">
+        <p className="text-lg text-gray-500 mt-2 sm:text-2xl">
           Designs and layouts to help you with your app.
         </p>
-        <section className="mt-10 sm:mb-6 flex flex-wrap sm:flex-nowrap">
+        <section className="mt-10 sm:mt-16 sm:mb-6 flex flex-wrap sm:flex-nowrap">
           <div className={styles.blog_lg_card}>
             <div className={styles.blog_card_img}>
               <img src="/assets/blog/1.jpg" alt="cup on purple background" />
