@@ -50,7 +50,7 @@ function Brands() {
           </div>
           <div className={styles.details}>
             <h2>Automated Tasks</h2>
-            <p>
+            <p className="sm:w-4/5">
               Save time and money with our revolutionary services. We are the
               leaders in the industry.
             </p>

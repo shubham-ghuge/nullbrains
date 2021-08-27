@@ -35,10 +35,10 @@
   @apply text-2xl font-bold sm:text-4xl;
 }
 .details p {
-  @apply my-2 text-lg text-gray-700 sm:text-xl sm:w-4/6;
+  @apply my-2 text-lg text-gray-700 sm:text-xl sm:my-4;
 }
 .list {
-  @apply flex flex-col text-gray-500;
+  @apply flex flex-col text-gray-500 sm:mt-2;
 }
 .list li {
   @apply flex items-start text-lg sm:text-xl sm:mb-2;

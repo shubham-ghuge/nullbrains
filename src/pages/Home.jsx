@@ -1,7 +1,5 @@
 import React from "react";
-import { Brands } from "./components/Brands";
-import { Hero } from "./components/Hero";
-import { Navbar } from "./components/Navbar";
+import { Brands, Features, Hero, Navbar, Team } from "./components";
 
 function Home() {
   return (
@@ -9,6 +7,8 @@ function Home() {
       <Navbar />
       <Hero />
       <Brands />
+      <Features />
+      <Team />
     </>
   );
 }
