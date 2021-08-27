@@ -11,14 +11,14 @@ function Hero() {
         and so much more!
       </p>
       <div className="relative mt-8 inline-block mx-auto">
-        <span className="absolute -right-6 bg-green-400 -top-2 text-white text-xs px-2 rounded-full">
+        <span className="absolute -right-6 bg-green-400 -top-2 text-white text-xs px-2 rounded-full sm:text-md sm:px-3 sm:py-1 sm:-top-3">
           only $15/mo
         </span>
-        <button className="btn-primary nunito-sans font-extrabold px-6 py-2 rounded-full focus:outline-none focus:ring-4 ring-indigo-400 ring-opacity-75 sm:text-xl sm:py-4 sm:px-8">
+        <button className="btn-primary font-extrabold px-6 py-2 rounded-full sm:text-xl sm:py-4 sm:px-8">
           Purchase Now
         </button>
       </div>
-      <a href="#" className="text-purple-600 text-sm mt-2 inline mx-auto">Learn More</a>
+      <a href="#" className="text-purple-600 text-sm sm:text-lg mt-2 inline mx-auto">Learn More</a>
     </section>
   );
 }

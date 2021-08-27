@@ -13,9 +13,9 @@ function Navbar() {
   }, []);
   return (
     <>
-      <nav className="flex sm:items-center sm:justify-between sm:mx-auto sm:w-11/12 sm:mt-4">
+      <nav className="flex sticky top-0 bg-white z-10 sm:items-center sm:justify-between sm:mx-auto sm:w-11/12 sm:h-20">
         <div className="flex justify-between box-border mt-2 px-2 w-full sm:w-auto h-10 items-center">
-          <a href="#" className="font-extrabold text-2xl nunito-sans">
+          <a href="#" className="font-extrabold text-2xl">
             nullBrains<span className="text-indigo-600">.</span>
           </a>
           <button
@@ -57,7 +57,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
-      <div className="h-px bg-gray-300 mt-1 w-11/12 mx-auto sm:mt-4"></div>
+      <div className="h-px bg-gray-300 mt-1 w-11/12 mx-auto"></div>
     </>
   );
 }
