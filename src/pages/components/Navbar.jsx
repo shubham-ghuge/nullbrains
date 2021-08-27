@@ -13,8 +13,8 @@ function Navbar() {
   }, []);
   return (
     <>
-      <nav className="flex sticky top-0 bg-white z-10 sm:items-center sm:justify-between sm:mx-auto sm:w-11/12 sm:h-20">
-        <div className="flex justify-between box-border px-2 w-full sm:w-auto h-10 items-center">
+      <nav className="flex sticky top-0 bg-white z-10 sm:items-center sm:justify-between sm:px-12 sm:h-20">
+        <div className="flex justify-between box-border px-2 w-full sm:w-auto h-14 items-center">
           <a href="#" className="font-extrabold text-2xl">
             nullBrains<span className="text-indigo-600">.</span>
           </a>
@@ -26,7 +26,7 @@ function Navbar() {
           </button>
         </div>
         <div
-          className={`absolute p-2 inset-x-0 top-10 h-56 flex flex-col justify-center bg-gray-900 text-white sm:static sm:flex-row sm:h-auto sm:bg-white sm:text-gray-700 sm:w-4/6 sm:items-center sm:justify-between ${
+          className={`absolute p-2 inset-x-0 top-14 h-56 flex flex-col justify-center bg-gray-900 text-white sm:static sm:flex-row sm:h-auto sm:bg-white sm:text-gray-700 sm:w-4/6 sm:items-center sm:justify-between ${
             showMenu ? "block" : " hidden"
           }`}
         >

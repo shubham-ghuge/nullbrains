@@ -5,7 +5,7 @@ function Brands() {
   const data = ["1.svg", "2.png", "3.svg", "4.png", "5.png", "6.png"];
   return (
     <section>
-      <div className="mb-16">
+      <div className="my-16">
         <p className="text-gray-900 text-center text-xs font-bold sm:text-sm">
           TRUSTED BY TOP-LEADING COMPANIES.
         </p>
@@ -13,13 +13,13 @@ function Brands() {
           {data.map((image) => (
             <img
               src={`/assets/logo/${image}`}
-              className="h-16 mr-2 w-30 sm:mr-12 sm:h-20"
+              className="h-12 mr-4 w-26 object-contain sm:mr-12 sm:h-20"
               alt="logo"
             />
           ))}
         </div>
       </div>
-      <section className="mb-16 sm:mx-auto sm:w-4/5">
+      <section className="sm:mx-auto sm:pt-16 sm:w-4/5">
         <div className="flex flex-col items-center mb-8 sm:flex-row sm:justify-between">
           <div className={styles.illustration}>
             <img src="/assets/astro.png" alt="astronaut illustration" />

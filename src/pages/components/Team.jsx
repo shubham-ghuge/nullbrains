@@ -29,7 +29,7 @@ function Team() {
         An incredible team of <br className="hidden sm:block"/> amazing individuals
       </h2>
       <div className="hidden absolute top-0 rounded-tl-full rounded-bl-full -right-14 sm:block h-32 w-2/5 bg-blue-50"></div>
-      <div className="flex mt-8 justify-center flex-wrap sm:justify-between sm:mt-16">
+      <div className="flex mt-8 sm:mb-10 justify-center flex-wrap sm:justify-between sm:mt-16">
         {data1.map((i) => (
           <div className="flex">
             <TeamCard details={i} />

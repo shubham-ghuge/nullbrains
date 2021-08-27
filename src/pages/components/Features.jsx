@@ -48,7 +48,7 @@ function Features() {
     },
   ];
   return (
-    <section id="features" className="text-center sm:w-11/12 sm:mx-auto">
+    <section id="features" className="text-center sm:mt-40 sm:w-11/12 sm:mx-auto">
       <h2 className="text-4xl font-bold">Our Features</h2>
       <p className="text-md text-gray-600 mb-8">
         Check out our list of awesome features below.

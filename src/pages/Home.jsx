@@ -1,5 +1,6 @@
 import React from "react";
-import { Brands, Features, Hero, Navbar, Team } from "./components";
+import { Blogs, Brands, Features, Hero, Navbar, Team } from "./components";
+import { Footer } from "./components/Footer";
 
 function Home() {
   return (
@@ -9,6 +10,10 @@ function Home() {
       <Brands />
       <Features />
       <Team />
+      <div className="bg-gray-100 ">
+        <Blogs />
+        <Footer />
+      </div>
     </>
   );
 }
